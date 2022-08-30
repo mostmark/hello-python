@@ -2,4 +2,4 @@ from django.http import HttpResponse
 
 
 def homePageView(request):
-    return HttpResponse("Hello there World!")
+    return HttpResponse("Hello World!")
